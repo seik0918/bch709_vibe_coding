@@ -1,0 +1,8 @@
+name: gasch-heatmap-r
+channels:
+  - conda-forge
+dependencies:
+  - r-base=4.2
+  - r-ggplot2
+  - r-rcolorbrewer
+  - r-ragg

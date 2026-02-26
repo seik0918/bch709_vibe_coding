@@ -1,0 +1,27 @@
+name: r-heatmap
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - r-base=4.2
+  - r-ggplot2
+  - r-colorspace
+  - r-scales
+  - r-gridextra
+  - r-tidyverse
+  - r-dplyr
+  - r-ggrepel
+  - r-viridis
+  - r-devtools
+  - r-cowplot
+  - r-patchwork
+  - r-pheatmap
+  - python=3.10
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scipy
+  - scikit-learn
+platforms:
+  - osx-64

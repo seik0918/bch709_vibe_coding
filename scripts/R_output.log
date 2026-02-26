@@ -1,0 +1,33 @@
+Loading required package: ggplot2
+Data dimensions: 6152 rows x 175 columns
+First few column names: NAME GWEIGHT Heat.Shock.05.minutes.hs.1 Heat.Shock.10.minutes.hs.1 Heat.Shock.15.minutes.hs.1 Heat.Shock.20.minutes.hs.1 
+Expression data dimensions after removing annotations: 6152 x 173 
+Genes with valid CV: 6151 
+
+Top 10 genes by coefficient of variation:
+           gene        cv
+YHR083W YHR083W 3415.4939
+YGL261C YGL261C 3247.0034
+YBR102C YBR102C 2248.1617
+YBL065W YBL065W 2017.5727
+YJR120W YJR120W 1635.4417
+YKL108W YKL108W 1432.1770
+YOL104C YOL104C 1161.2778
+YNR035C YNR035C 1058.4678
+YHR034C YHR034C  952.7032
+YER185W YER185W  764.3526
+
+Long format data dimensions: 1695 rows
+Warning messages:
+1: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
+ℹ Please use `linewidth` instead. 
+2: Unknown palette: "PuGn" 
+3: The `size` argument of `element_rect()` is deprecated as of ggplot2 3.4.0.
+ℹ Please use the `linewidth` argument instead. 
+
+Heatmap saved to: ../results/heatmap_top10_genes.png 
+Error in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y,  : 
+  invalid font type
+Calls: ggsave ... drawDetails -> drawDetails.text -> grid.Call.graphics
+In addition: There were 50 or more warnings (use warnings() to see the first 50)
+Execution halted
